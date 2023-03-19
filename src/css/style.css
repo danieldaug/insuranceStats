@@ -97,33 +97,41 @@ main {
 
 /* FORM ========================= */
 
+.form-container {
+    background-color: var(--midnight-green);
+    padding: 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+}
+
 form {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 2rem;
+    flex-direction: column;
+    
 }
 
 label {
     display: block;
     margin-bottom: 0.5rem;
+    
 }
 
 input[type="text"] {
-    width: 45%;
+    width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
-    font-style: bold;
+    border-radius: 5px;
 }
 
 input[type="submit"] {
-    background-color: var(--midnight-green);
+    background-color: var(--teal);
     color: #fff;
     padding: 0.5rem 1.5rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    align-self: flex-end;
 }
 
 input[type="submit"]:hover {
