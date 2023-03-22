@@ -8,6 +8,12 @@
     --zomp: #5AAA95;
     --asparagus: #86A873;
     --satin-sheen-gold: #BB9F06;
+    /*experimenting colors*/
+    --light-green: #D0EFB1;
+    --darker-green: #B3D89C;
+    --light-blue: #A3D7E6;
+    --middle-blue: #6D8DBB;
+    --dark-blue: #5D748A;
 }
 
 /* BASIC RESET ========================= */
@@ -38,23 +44,23 @@ p {
 
 a {
     text-decoration: none;
-    color: var(--satin-sheen-gold);
+    color: var(--light-blue);
 }
 
 a:hover {
-    color: var(--midnight-green);
+    color: var(--middle-blue);
 }
 
 /* HEADER ========================= */
 
 header {
-    background-color: var(--midnight-green);
+    background-color: var(--dark-blue);
     padding: 1rem 0;
     text-align: center;
 }
 
 header h1 {
-    color: var(--satin-sheen-gold);
+    color: var(--light-blue);
     text-shadow: -1px -1px 0 #fff;
 }
 
@@ -78,12 +84,12 @@ nav a {
     background-color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 5px;
-    color: var(--midnight-green);
+    color: var(--middle-blue);
     transition: background-color 0.3s;
 }
 
 nav a:hover {
-    background-color: var(--zomp);
+    background-color: var(--light-blue);
     color: #fff;
 }
 
@@ -91,14 +97,14 @@ nav a:hover {
 
 main {
     padding: 2rem;
-    background-color: var(--teal);
+    background-color: var(--dark-blue);
     flex: 1;
 }
 
 /* FORM ========================= */
 
 .form-container {
-    background-color: var(--midnight-green);
+    background-color: var(--middle-blue);
     padding: 1rem;
     border-radius: 5px;
     display: inline-block;
@@ -125,7 +131,7 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    background-color: var(--teal);
+    background-color: var(--light-blue);
     color: #fff;
     padding: 0.5rem 1.5rem;
     border: none;
@@ -135,7 +141,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: var(--zomp);
+    background-color: var(--dark-blue);
 }
 
 /* SECTIONS ========================= */
@@ -151,11 +157,11 @@ section:last-child {
 /* FOOTER ========================= */
 
 footer {
-    background-color: var(--midnight-green);
+    background-color: var(--middle-blue);
     padding: 1rem 0;
     text-align: center;
 }
 
 footer p {
-    color: var(--satin-sheen-gold);
+    color: var(--light-blue);
 }
